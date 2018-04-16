@@ -27,3 +27,12 @@ var reducer_1 = function (state, action) {
 ```
 * 一个成为reducer类型的函数，就是普通函数，输入是state 以及 action返回 state
 * 目前为止都是初始的state，没有处理action也没有产生新的statue
+## 05 dispatch-action
+```
+store_0.dispatch({
+    type: 'AN_ACTION'
+})
+```
+* 分发一个action
+*  ActionCreator -> Action -> dispatcher -> reducer
+* 
