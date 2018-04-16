@@ -13,13 +13,13 @@ redux-tutorial
 为了理解本项目中的示例代码，你需要了解一些 ES6，ES7（Object Spread）特性。同时本教程只针对 Redux 3.0.2 和 react-redux 4.0.0。
 
 ### 克隆项目
-`git clone https://github.com/react-guide/redux-tutorial-cn.git`
+`git clone git@github.com:gnuhub/redux-tutorial-cn.git`
 
 ### 进入目录
 `cd redux-tutorial-cn`
 
 ### 安装依赖
-`npm install`
+`yarn install`
 
 ### 浏览教程
 
@@ -31,7 +31,7 @@ redux-tutorial
 
 既然是真实的 JS 文件，你可以直接运行这些示例，来验证结果符合预期：
 
-`npm run example 01_simple-action-creator.js`
+`yarn run example 01_simple-action-creator.js`
 
 开始享受吧！
 
